@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+li {
+}
+li i:hover + .animat {
+  transform: translateX(70px);
+  opacity: 1;
+}
